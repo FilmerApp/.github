@@ -114,7 +114,7 @@ created that gets updated on my Docker Hub. This way, I can easily run my applic
 
 ![Docker Github Actions](https://github.com/FilmerApp/.github/blob/main/images/Automatic%20Docker%20build.png)
 
-[Docker Hub]
+![Docker Repositories](https://github.com/FilmerApp/.github/blob/main/images/Docker%20Repositories.png)
 
 For Eevenify, we use a very similar setup: whenever an update is made to a service, the corresponding Docker Container is updated and ran on the server.
 
@@ -202,7 +202,7 @@ Like mentioned before, I tried to set up microservices for Filmer, and we attemp
 However, we ran into a major challenge: managing our data. Our microservices often needed to access the same data, and giving them all their own seperate database would mean that data would go out of sync when edited. There are solutions for this, but they are quite complex and were unfortunately not within the scope of this semester. In the end, we opted to use endpoint calls between the different microservices for Eeventify, which worked, but ruins many of the advantages the microservices could offer. For Filmer, I eventually decided to merge the services that used the same data to make development more manageable.
 Below is the original intended setup for the project - the Watchlist and Recommendation services have been merged.
 
-[Microservices diagram]
+![Microservices diagram](https://github.com/FilmerApp/.github/blob/main/images/Component%20Diagram.png)
 ### UX
 I tried to keep User Experience in the back of my head throughout the development of Filmer. Right at the start, I collected feedback on why and how potential users would want to use the app, through interviews conducted with my friends. I also gathered feedback on the UI of the application to try and make it easier to use, and used it to make changes - for example changing the colors of the 'Add to watchlist' and 'Not interested' to make their function more clear. Unfortunately, my lack of experience with CSS made this process more difficult, as I didn't always know how to make the changes that would make the application easier to use.
 I also read up on ARIA, and set appriopriate roles and attributes in my application. I haven't yet been able to integrate it in the entire application - this would be a good next step.
