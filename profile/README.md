@@ -1,4 +1,5 @@
 # Filmer Portfolio
+Rik Jansen
 
 # Table of Contents
 - [Filmer Portfolio](#filmer-portfolio)
@@ -47,7 +48,7 @@ The Filmer website is built in React, which communicates through endpoints with 
 registering, and logging in, and one to manage a user's watchlist and recommend new films. The backends themselves are written in C#, and use Entity Framework
 Core to manage their SQL Server databases.
 
-For a full list of technical specifications, as well as justifications for my choices, see [Technical Choices]
+For a full list of technical specifications, as well as justifications for my choices, see [Technical Choices and Other Considerations](#technical-choices-and-other-considerations)
 
 ## Group Project
 Alongside my personal project, I worked with a group on a different application: Eeventify. Eeventify is a social app that allows users to organise activities 
@@ -56,7 +57,6 @@ and events, which can found and joined by other users. This way you'll never be 
 # Learning Outcomes
 ## 1: Full-Stack
 >### _You design and build **user-friendly**, **full-stack** web applications._
-[User Friendly]
 
 Like mentioned before, the Filmer's frontend is written in React, and makes use of a set of APIs. Through a variety of endpoints, the app can access
 a user's saved watchlist, allow them to make changes to it, and recommend films not yet on the user's list.
@@ -133,7 +133,7 @@ educational setting:
 >### _You analyze (non-functional) requirements, elaborate (architectural) designs and validate them using **multiple types of test techniques**._
 For Filmer, I tried to plan out the overall project structure as well as possible. I originally wanted to split up the backend in as many microservices as 
 possible, but during development I unfortunately ran into some issues that made me decide to merge some of the services, ending up with the two I have now. For
-more info, see the [Technical Choices] chapter.
+more info, see the [Technical Choices and Other Considerations](#technical-choices-and-other-considerations) chapter.
 
 For Eeventify, we did end up compartmentalizing the backend a lot more, with the multiple services being routed through an API gateway. In general, I think we
 planned out this project quite well, extensively discussing our setup before starting work, which helped greatly with maintaining a well organised project from
