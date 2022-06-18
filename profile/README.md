@@ -92,7 +92,7 @@ If I set up a server, however, the tests would start working with only minor cha
 
 Eeventify was hosted on an actual server, so the monitors did function there.
 
-[Postman Eeventify]
+![Postman Eeventify](https://github.com/FilmerApp/.github/blob/main/images/Eeventify%20Monitor.png)
 
 ## 3: Agile
 >###  _You **choose** and implement the most suitable agile software development method for your software project._
@@ -139,7 +139,7 @@ For Eeventify, we did end up compartmentalizing the backend a lot more, with the
 planned out this project quite well, extensively discussing our setup before starting work, which helped greatly with maintaining a well organised project from
 the start.
 
-[Eeventify diagram]
+![Eeventify diagram](https://github.com/FilmerApp/.github/blob/main/images/Eeventify%20Layout.png)
 
 We had an interesting challenge when it came to Eeventify, because we essentially had three different stakeholders: the groups from Oulu, ourselves, and our 
 teachers. During the first part of the semester, we largely focused on the groups from Finland. We got a prototype of the backend up and running as fast as
@@ -218,12 +218,14 @@ I researched the optimal choice of Database and ORM framework for Filmer:
 I researched cryptography and how it could be applied to increase the security of both Filmer and Eeventify:  
 [Cryptography Research](https://github.com/FilmerApp/.github/blob/main/Research/Cryptography.md)
 
-I am working on researching hypothetical scenarios for trying to create a business out of Eeventify. 
+I am working on researching hypothetical scenarios for trying to create a business out of Eeventify.
+
+I started researching agile working methods (research will be finished along with the Eeventify group).
+[Agile Research]
 
 # Semester Reflection
 
 # Links
-[Technical Choices]
 
 [Ethics Research]
 
