@@ -1,7 +1,30 @@
 # Filmer Portfolio
 
 # Table of Contents
-
+- [Filmer Portfolio](#filmer-portfolio)
+- [Table of Contents](#table-of-contents)
+- [Project Description](#project-description)
+  * [Technical Details](#technical-details)
+  * [Group Project](#group-project)
+- [Learning Outcomes](#learning-outcomes)
+  * [1: Full-Stack](#1-full-stack)
+  * [2: Software Quality](#2-software-quality)
+  * [3: Agile](#3-agile)
+  * [4: CI/CD](#4-ci/cd)
+  * [5: Cultural differences](#5-cultural-differences)
+  * [6: Requirements](#6-requirements)
+  * [7: Business Processes](#7-business-processes)
+  * [8: Professional](#8-professional)
+- [Technical Choices and Other Considerations](#technical-choices-and-other-considerations)
+    + [C#](#c#)
+    + [Entity Framework Core / Microsoft SQL Server](#entity-framework-core-and-microsoft-sql-server)
+    + [React](#react)
+    + [Testing](#testing)
+    + [Microservices](#microservices)
+    + [UX](#ux)
+- [Research](#research)
+- [Semester Reflection](#semester-reflection)
+- [Links](#links)
 
 # Project Description 
 Everyone knows the problem: when you finally get the time to sit down and watch a film, you suddenly have no idea what to watch, and spend half your evening
@@ -160,7 +183,7 @@ One of the biggest technological choices to be made for both applications I work
   * C# is part of the .NET framework, which means you can easily integrate it with other frameworks like ASP.NET. There is a wide availability of frameworks for C# to serve many different purpose, for example Entity Framework Core (see below).
   * There is extensive support and documentation for C#, and Microsoft has a range of well-written tutorials on pretty much any subject to do with the .NET framework.
   * Both the rest of my group members and I had the most experience using C#
-### Entity Framework Core / Microsoft SQL Server
+### Entity Framework Core and Microsoft SQL Server
 I researched the best options for Database Management Systems and ORM here:
 [Database & ORM Research]
 ### React
