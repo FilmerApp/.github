@@ -168,12 +168,21 @@ The choice for Javascript framework was possibly the most important one this sem
   * Like I said, I had no experience using Javascript before this semester. React's JSX syntax has a lot of similarities to HTML, a language which I do know, which makes the learning process easier.
   * There are a lot of well-made tutorials teaching React.
   * React's focus on reusable components is very powerful when your application features lists of repeat elements, like mine does. The way it handles inheritance is also familiar to someone coming from an object oriented background.
-  * React's biggest downside is that it natively only supports single-page applications. There are, however, additional libraries for routing - I used React Router
+  * React's biggest downside is that it natively only supports single-page applications. There are, however, additional libraries for routing - I used React Router.
 ### Testing
 I outline the details of my testing setup in more detail in [Software Quality], but I wanted to have a variety of testing methods to cover as much of my application as possible. NUnit is a framework I have experience using, and it is well suited to testing C# backend logic, which is especially important with my recommendation algorithm. I chose Postman to test my endpoints because of its ease of use, making it a perfect choice for trying out the API after I had my prototype set up. Postman is also able to periodcally run tests, which helps greatly with automating endpoint testing.
 ### Microservices
+Like mentioned before, I tried to set up microservices for Filmer, and we attempted to do the same for Eeventify, with mixed success. Microservices offer a lot of benefits:
+  * Because microservices are completely seperate, it is very easy to make changes to a single services without having to redeploy the rest of your application
+  * One or a few members of a team can build and mantain a single microservice, which makes development easier and more agile. We really noticed the benefits of this way of working in our group project.
+  * Microservices can be scaled individually, which means that if one service sees way more traffic, it can be scaled independently from the others.
+However, we ran into a major challenge: managing our data. Our microservices often needed to access the same data, and giving them all their own seperate database would mean that data would go out of sync when edited. There are solutions for this, but they are quite complex and were unfortunately not within the scope of this semester. In the end, we opted to use endpoint calls between the different microservices for Eeventify, which worked, but ruins many of the advantages the microservices could offer. For Filmer, I eventually decided to merge the services that used the same data to make development more manageable.
+Below is the original intended setup for the project - the Watchlist and Recommendation services have been merged.
 
+[Microservices diagram]
 ### UX
+I tried to keep User Experience in the back of my head throughout the development of Filmer. Right at the start, I collected feedback on why and how potential users would want to use the app, through interviews conducted with my friends. I also gathered feedback on the UI of the application to try and make it easier to use, and used it to make changes - for example changing the colors of the 'Add to watchlist' and 'Not interested' to make their function more clear. Unfortunately, my lack of experience with CSS made this process more difficult, as I didn't always know how to make the changes that would make the application easier to use.
+I also read up on ARIA, and set appriopriate roles and attributes in my application. I haven't yet been able to integrate it in the entire application - this would be a good next step.
 
 # Research
 I researched what the ACM Code of Ethics had to say about working together in a group, and how that code applied in our way of working, and in an educational
