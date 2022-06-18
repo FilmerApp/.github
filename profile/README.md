@@ -81,14 +81,12 @@ algorithm, because it contains the most complicated logic of the application. Wh
 Github Actions is used to automatically build the application and run all unit tests, the result of which is displayed on the repository's front page. This
 way, I can always be sure my algorithm is functioning.
 
-[Github actions testing]
+![Github actions testing](https://github.com/FilmerApp/.github/blob/main/images/Automatic%20Unit%20Testing.png)
 
 A second layer of testing happens through Postman. I created a suite of integration tests that ensures my endpoints are in working order, all of which are 
 collected in a monitor which runs all of the tests once every 2 hours, so I'll always get a timely warning that something about my application has stopped 
 working. Unfortunately, monitors don't work when an application is hosted on localhost (even through Docker), which means that they currently always fail.
 If I set up a server, however, the tests would start working with only minor changes to their urls.
-
-[Postman monitor]
 
 Eeventify was hosted on an actual server, so the monitors did function there.
 
@@ -103,7 +101,7 @@ was essential. Scrum was a good fit for us, because it allowed us to set clear g
 We used a rotating Scrum master, and supplemented the method by using a sort of Kanban board, that gave use a better overview of the work that was finished,
 in development, or still had to be done.
 
-[Taiga board]
+![Taiga board](https://github.com/FilmerApp/.github/blob/main/images/Taiga%20Board.png)
 
 While not perfect, I think our group worked very well together, aided by agile: especially towards the end, we made a lot of progress and managed to meet all 
 of our goals.
@@ -113,6 +111,8 @@ of our goals.
 Both parts of my backend, and my frontend, are containerized using Docker. All of this happens automatically whenever something is committed to the main branch
 the respective repositories, once again using Github Actions. When something is pushed to main, the program automatically gets built, and a Docker container is
 created that gets updated on my Docker Hub. This way, I can easily run my application through Docker and ensure the most recent version is running.
+
+![Docker Github Actions](https://github.com/FilmerApp/.github/blob/main/images/Automatic%20Docker%20build.png)
 
 [Docker Hub]
 
@@ -161,7 +161,7 @@ I had overlooked.
 
 [Docs interview results]
 
-[Requirements]
+[Requirements](Requirements.md)
 
 ## 7: Business Processes
 >###  _You analyze and describe **simple** business processes that are **related** to your project._
