@@ -154,7 +154,7 @@ frontend making use of our backend, quickly setting up a prototype and increment
 
 We did also discuss security features within the group, although we haven't yet managed to implement any of them.
 
-For Filmer, I feel like I messed up quite badly when it comes to the teachers asstakeholders (see the [Semester Reflection]). I did however try gather as 
+For Filmer, I feel like I messed up quite badly when it comes to the teachers asstakeholders (see the [Semester Reflection](#semester-reflection)). I did however try gather as 
 much feedback from my friends as possible, first interviewing them on features they would want to see in an app like this and using their feedback to 
 create my requirements, and once the app was up and running inviting them to mess around with it to identify bugs, which helped me find a couple of things 
 I had overlooked.
@@ -185,7 +185,7 @@ One of the biggest technological choices to be made for both applications I work
   * Both the rest of my group members and I had the most experience using C#
 ### Entity Framework Core and Microsoft SQL Server
 I researched the best options for Database Management Systems and ORM here:
-[Database & ORM Research]
+[Database & ORM Research](https://github.com/FilmerApp/.github/blob/main/Research/Database%20and%20ORMs.md)
 ### React
 The choice for Javascript framework was possibly the most important one this semester. Going into the semester, I had never used Javascript in any way, so I would have to learn to use Javascript and a framework from scratch. 
   * Like I said, I had no experience using Javascript before this semester. React's JSX syntax has a lot of similarities to HTML, a language which I do know, which makes the learning process easier.
@@ -213,10 +213,10 @@ setting:
 [Ethics Research]
 
 I researched the optimal choice of Database and ORM framework for Filmer:  
-[Database & ORM Research]
+[Database & ORM Research](https://github.com/FilmerApp/.github/blob/main/Research/Database%20and%20ORMs.md)
 
 I researched cryptography and how it could be applied to increase the security of both Filmer and Eeventify:  
-[Cryptography Research]
+[Cryptography Research](https://github.com/FilmerApp/.github/blob/main/Research/Cryptography.md)
 
 I am working on researching hypothetical scenarios for trying to create a business out of Eeventify. 
 
@@ -227,16 +227,6 @@ I am working on researching hypothetical scenarios for trying to create a busine
 
 [Ethics Research]
 
-[Database & ORM Research]
+[Database & ORM Research](https://github.com/FilmerApp/.github/blob/main/Research/Database%20and%20ORMs.md)
 
-[Cryptography Research]
-<!--
-
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+[Cryptography Research](https://github.com/FilmerApp/.github/blob/main/Research/Cryptography.md)
