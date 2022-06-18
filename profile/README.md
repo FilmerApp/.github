@@ -124,6 +124,7 @@ possible, and then started adding more and more features based on what the other
 but also tried to set up automatic testing, and we frequently got feedback from the frontend groups when something needed to be implemented, or when an existing
 feature was broken, not functioning as intended, or simply confusing to use. We tried to respond to this feedback as quickly as possible, considering the other
 groups were depending on our backend for their own application's functionality.
+
 At the same time, and especially once the groups from Finland had finished their project, we tried to implement features we had personally planned and ones our
 teachers wanted to see (not only programming tasks, but also research, ethics considerations, etc). After we had finished our collaboration, we built our own
 frontend making use of our backend, quickly setting up a prototype and incrementally adding more features to suit our own and our teachers' needs.
@@ -152,15 +153,27 @@ set-up end result. We also frequently helped each other understand parts of the 
 speed.
 
 # Technical Choices and Other Considerations
-## C#
+### C#
+One of the biggest technological choices to be made for both applications I worked on was the programming language the backends would be created in. For both, the choice fell on C#. My reasoning is as follows:
+  * C# is a modern, frequently updated programming language, with many useful features like null-safety that something like Java lacks.
+  * Programming in C# is relatively easy, but it is still a powerful language that allows you to 
+  * C# is part of the .NET framework, which means you can easily integrate it with other frameworks like ASP.NET. There is a wide availability of frameworks for C# to serve many different purpose, for example Entity Framework Core (see below).
+  * There is extensive support and documentation for C#, and Microsoft has a range of well-written tutorials on pretty much any subject to do with the .NET framework.
+  * Both the rest of my group members and I had the most experience using C#
+### Entity Framework Core / Microsoft SQL Server
+I researched the best options for Database Management Systems and ORM here:
+[Database & ORM Research]
+### React
+The choice for Javascript framework was possibly the most important one this semester. Going into the semester, I had never used Javascript in any way, so I would have to learn to use Javascript and a framework from scratch. 
+  * Like I said, I had no experience using Javascript before this semester. React's JSX syntax has a lot of similarities to HTML, a language which I do know, which makes the learning process easier.
+  * There are a lot of well-made tutorials teaching React.
+  * React's focus on reusable components is very powerful when your application features lists of repeat elements, like mine does. The way it handles inheritance is also familiar to someone coming from an object oriented background.
+  * React's biggest downside is that it natively only supports single-page applications. There are, however, additional libraries for routing - I used React Router
+### Testing
+I outline the details of my testing setup in more detail in [Software Quality], but I wanted to have a variety of testing methods to cover as much of my application as possible. NUnit is a framework I have experience using, and it is well suited to testing C# backend logic, which is especially important with my recommendation algorithm. I chose Postman to test my endpoints because of its ease of use, making it a perfect choice for trying out the API after I had my prototype set up. Postman is also able to periodcally run tests, which helps greatly with automating endpoint testing.
+### Microservices
 
-## EFC
-
-## React
-
-## Microservices
-
-## UX
+### UX
 
 # Research
 I researched what the ACM Code of Ethics had to say about working together in a group, and how that code applied in our way of working, and in an educational
@@ -173,12 +186,16 @@ I researched the optimal choice of Database and ORM framework for Filmer:
 I researched cryptography and how it could be applied to increase the security of both Filmer and Eeventify:  
 [Cryptography Research]
 
+I am working on researching hypothetical scenarios for trying to create a business out of Eeventify. 
+
 # Semester Reflection
 
 # Links
 [Technical Choices]
 
 [Ethics Research]
+
+[Database & ORM Research]
 
 [Cryptography Research]
 <!--
