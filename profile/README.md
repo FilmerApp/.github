@@ -137,7 +137,7 @@ educational setting:
 >### _You analyze (non-functional) requirements, elaborate (architectural) designs and validate them using **multiple types of test techniques**._
 For Filmer, I tried to plan out the overall project structure as well as possible. I originally wanted to split up the backend in as many microservices as 
 possible, but during development I unfortunately ran into some issues that made me decide to merge some of the services, ending up with the two I have now. For
-more info, see the [Technical Choices and Other Considerations](#technical-choices-and-other-considerations) chapter. I also created a C4 model for my application, see [Miscellaneous Design Diagrams]
+more info, see the [Technical Choices and Other Considerations](#technical-choices-and-other-considerations) chapter. I also created a C4 model for my application, see [Miscellaneous Design Diagrams](https://github.com/FilmerApp/.github/blob/main/profile/Design%20Documents.md)
 
 For Eeventify, we did end up compartmentalizing the backend a lot more, with the multiple services being routed through an API gateway. In general, I think we
 planned out this project quite well, extensively discussing our setup before starting work, which helped greatly with maintaining a well organised project from
@@ -197,7 +197,7 @@ The choice for Javascript framework was possibly the most important one this sem
   * React's focus on reusable components is very powerful when your application features lists of repeat elements, like mine does. The way it handles inheritance is also familiar to someone coming from an object oriented background.
   * React's biggest downside is that it natively only supports single-page applications. There are, however, additional libraries for routing - I used React Router.
 ### Testing
-I outline the details of my testing setup in more detail in [Software Quality], but I wanted to have a variety of testing methods to cover as much of my application as possible. NUnit is a framework I have experience using, and it is well suited to testing C# backend logic, which is especially important with my recommendation algorithm. I chose Postman to test my endpoints because of its ease of use, making it a perfect choice for trying out the API after I had my prototype set up. Postman is also able to periodcally run tests, which helps greatly with automating endpoint testing.
+I outline the details of my testing setup in more detail in [Software Quality](#2-software-quality), but I wanted to have a variety of testing methods to cover as much of my application as possible. NUnit is a framework I have experience using, and it is well suited to testing C# backend logic, which is especially important with my recommendation algorithm. I chose Postman to test my endpoints because of its ease of use, making it a perfect choice for trying out the API after I had my prototype set up. Postman is also able to periodcally run tests, which helps greatly with automating endpoint testing.
 ### Microservices
 Like mentioned before, I tried to set up microservices for Filmer, and we attempted to do the same for Eeventify, with mixed success. Microservices offer a lot of benefits:
   * Because microservices are completely seperate, it is very easy to make changes to a single services without having to redeploy the rest of your application
@@ -230,7 +230,7 @@ I started researching agile working methods (research will be finished along wit
 # Semester Reflection
 
 # Links
-[Miscellaneous Design Diagrams]
+[Miscellaneous Design Diagrams](https://github.com/FilmerApp/.github/blob/main/profile/Design%20Documents.md)
 
 [Ethics Research](https://github.com/FilmerApp/.github/blob/main/Research/Ethics.md)
 
