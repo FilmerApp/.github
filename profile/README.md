@@ -61,7 +61,11 @@ and events, which can found and joined by other users. This way you'll never be 
 Like mentioned before, the Filmer's frontend is written in React, and makes use of a set of APIs. Through a variety of endpoints, the app can access
 a user's saved watchlist, allow them to make changes to it, and recommend films not yet on the user's list.
 
-[Auth0 Login]
+Originally, I planned to implement my own login service, for which I built a seperate backend. Eventually however, I opted to use Auth0 for my login functionality. Not only is Auth0 easy to implement and comes with some nice quality of life features - like being able to create an account through your google account, it also has a lot of safety features that would be quite challenging to implement from the ground up. Auth0 features bot detection and CAPTCHA, brute force protection, and can detect users logging in with credentials that have been part of a data breach.
+
+![Auth0 Login]https://github.com/FilmerApp/.github/blob/main/images/Login%20Gif.gif
+
+Once logged in, the user's ID is requested through my own API, which can then be used to load their watchlist and personalized recommendations.
 
 The database is fully handled through Entity Framework Core, through a code-first approach. An algorithm in the backend, all written in C#, picks out film
 recommendations based on the films already on the user's watchlist.
