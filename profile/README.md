@@ -224,7 +224,7 @@ I researched cryptography and how it could be applied to increase the security o
 
 I am working on researching hypothetical scenarios for trying to create a business out of Eeventify.
 
-I started researching agile working methods (research will be finished along with the Eeventify group).
+I started researching agile working methods (research will be finished along with the Eeventify group):  
 [Agile Research](https://github.com/FilmerApp/.github/blob/main/Research/Agile.md)
 
 # Semester Reflection
