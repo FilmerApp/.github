@@ -127,7 +127,7 @@ out very well, and in the end I think our collaboration transpired very smoothly
 
 As for ethical aspects, I have carried out research on the ethics surrounding the collaboration and communication with other groups, especially within an
 educational setting:
-[Ethics Research]
+[Ethics Research](https://github.com/FilmerApp/.github/blob/main/Research/Ethics.md)
 
 ## 6: Requirements
 >### _You analyze (non-functional) requirements, elaborate (architectural) designs and validate them using **multiple types of test techniques**._
@@ -159,7 +159,7 @@ much feedback from my friends as possible, first interviewing them on features t
 create my requirements, and once the app was up and running inviting them to mess around with it to identify bugs, which helped me find a couple of things 
 I had overlooked.
 
-[Docs interview results]
+![Docs interview results](https://github.com/FilmerApp/.github/blob/main/images/Interview%20Results.png)
 
 [Requirements](Requirements.md)
 
@@ -210,7 +210,7 @@ I also read up on ARIA, and set appriopriate roles and attributes in my applicat
 # Research
 I researched what the ACM Code of Ethics had to say about working together in a group, and how that code applied in our way of working, and in an educational
 setting:  
-[Ethics Research]
+[Ethics Research](https://github.com/FilmerApp/.github/blob/main/Research/Ethics.md)
 
 I researched the optimal choice of Database and ORM framework for Filmer:  
 [Database & ORM Research](https://github.com/FilmerApp/.github/blob/main/Research/Database%20and%20ORMs.md)
@@ -221,13 +221,14 @@ I researched cryptography and how it could be applied to increase the security o
 I am working on researching hypothetical scenarios for trying to create a business out of Eeventify.
 
 I started researching agile working methods (research will be finished along with the Eeventify group).
-[Agile Research]
+[Agile Research](https://github.com/FilmerApp/.github/blob/main/Research/Agile.md)
 
 # Semester Reflection
 
 # Links
+[Miscellaneous Design Diagrams]
 
-[Ethics Research]
+[Ethics Research](https://github.com/FilmerApp/.github/blob/main/Research/Ethics.md)
 
 [Database & ORM Research](https://github.com/FilmerApp/.github/blob/main/Research/Database%20and%20ORMs.md)
 
