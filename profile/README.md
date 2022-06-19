@@ -63,7 +63,7 @@ a user's saved watchlist, allow them to make changes to it, and recommend films 
 
 Originally, I planned to implement my own login service, for which I built a seperate backend. Eventually however, I opted to use Auth0 for my login functionality. Not only is Auth0 easy to implement and comes with some nice quality of life features - like being able to create an account through your google account, it also has a lot of safety features that would be quite challenging to implement from the ground up. Auth0 features bot detection and CAPTCHA, brute force protection, and can detect users logging in with credentials that have been part of a data breach.
 
-![Auth0 Login]https://github.com/FilmerApp/.github/blob/main/images/Login%20Gif.gif
+![Auth0 Login](https://github.com/FilmerApp/.github/blob/main/images/Login%20Gif.gif)
 
 Once logged in, the user's ID is requested through my own API, which can then be used to load their watchlist and personalized recommendations.
 
