@@ -35,13 +35,13 @@ Filmer is designed to solve this issue: it offers a simple and easy-to-use inter
 personal tastes. If the recommended movie doesn't seem to be your thing, you can just say you're not interested and the next recommendation will immediately 
 be shown.
 
-[Recommendations Gif]
+![Recommendations Gif](https://github.com/FilmerApp/.github/blob/main/images/Recommendations%20Gif.gif)
 
 If something comes up that sounds interesting, but you're not quite in the mood for it right now, you can save it to your watchlist, so 
 you'll have a personalized list of recommendations within arm's reach at all time. Here, you can always check your recommendations, and once you've seen a film
 you can indicate what you thought of it, further refining your personal recommendation algorithm.
 
-[Watchlist Gif]
+![Watchlist Gif](https://github.com/FilmerApp/.github/blob/main/images/Watchlist%20Gif.gif)
 
 ## Technical Details
 The Filmer website is built in React, which communicates through endpoints with the backend API. There are multiple backends: one for managing account details 
@@ -133,7 +133,7 @@ educational setting:
 >### _You analyze (non-functional) requirements, elaborate (architectural) designs and validate them using **multiple types of test techniques**._
 For Filmer, I tried to plan out the overall project structure as well as possible. I originally wanted to split up the backend in as many microservices as 
 possible, but during development I unfortunately ran into some issues that made me decide to merge some of the services, ending up with the two I have now. For
-more info, see the [Technical Choices and Other Considerations](#technical-choices-and-other-considerations) chapter.
+more info, see the [Technical Choices and Other Considerations](#technical-choices-and-other-considerations) chapter. I also created a C4 model for my application, see [Miscellaneous Design Diagrams]
 
 For Eeventify, we did end up compartmentalizing the backend a lot more, with the multiple services being routed through an API gateway. In general, I think we
 planned out this project quite well, extensively discussing our setup before starting work, which helped greatly with maintaining a well organised project from
