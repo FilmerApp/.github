@@ -229,7 +229,7 @@ I started researching agile working methods (research will be finished along wit
 [Agile Research](https://github.com/FilmerApp/.github/blob/main/Research/Agile.md)
 
 # Semester Reflection
-This started off quite badly for me - I got sick for almost a month, after which I moved, and all of this along with some other unfortunate personal situations meant that I wasn't able to make much progress the first half of the semester. After being sick, my main priority was catching up with the group project, which I think I did quite well. I worked hard familiarizing myself with the code written in my absence, and could get to work within a week. 
+This period started off quite badly for me - I got sick for almost a month, after which I moved, and all of this along with some other unfortunate personal situations meant that I wasn't able to make much progress the first half of the semester. After being sick, my main priority was catching up with the group project, which I think I did quite well. I worked hard familiarizing myself with the code written in my absence, and could get to work within a week. 
 
 As for my personal project, I was still quite behind. Whenever this happens I tend to get very overwhelmed, and don't know where to start work in order to catch up, which makes the situation worse. However, while it wasn't as quickly as with the group project, I did manage to pick up speed, make a detailed planning for how I was going to finish the project, and ended up creating an applicatin that I'm personally quite happy with.
 
@@ -237,7 +237,7 @@ The biggest issue was asking for feedback. I don't know why, but when I have the
 
 I do also think I managed the group project relatively well: I think I carried my weight, and I think this is the area where I had the most growth when it comes to professionalism and interaction with stakeholders, especially because we had an interesting challenge in working both with our teachers and the groups from Finland, as well as setting our own development goals. I think it helped that I stepped back into the project relatively early, which means I had more interaction with our group project teachers, especially Bert. We also had a very pleasant working environment, our group worked very well together, and I'm personally very happy with the progress we made on Eeventify.
 
-###Points of Improvement
+### Points of Improvement
 The biggest - and most obvious - point of improvement is my communication with teachers. I really want to try to start off next semester well, and try to plan at least one feedback conversation every week from the start, which will make it much easier to keep up with what's expected of me. I do think I am getting better at things like this, but there's still a long way to go, and as long as I ensure to not fall behind too much, things won't get as overwhelming.
 
 
