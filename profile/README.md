@@ -51,8 +51,9 @@ Core to manage their SQL Server databases.
 For a full list of technical specifications, as well as justifications for my choices, see [Technical Choices and Other Considerations](#technical-choices-and-other-considerations)
 
 ## Group Project
-Alongside my personal project, I worked with a group on a different application: Eeventify. Eeventify is a social app that allows users to organise activities 
-and events, which can found and joined by other users. This way you'll never be looking for people to play football, watch a movie, or just hang out again.
+Alongside my personal project, I worked with a group on a different application: Eeventify. Eeventify is a social app that allows users to organise activities and events, which can found and joined by other users. This way you'll never be looking for people to play football, watch a movie, or just hang out again.
+
+The repository for Eeventify is located [here](https://github.com/Eeventify).
 
 # Learning Outcomes
 ## 1: Full-Stack
