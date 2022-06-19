@@ -1,5 +1,5 @@
 # Filmer Portfolio
-Rik Jansen
+By Rik Jansen
 
 # Table of Contents
 - [Filmer Portfolio](#filmer-portfolio)
