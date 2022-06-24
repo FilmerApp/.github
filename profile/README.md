@@ -111,6 +111,8 @@ in development, or still had to be done.
 While not perfect, I think our group worked very well together, aided by agile: especially towards the end, we made a lot of progress and managed to meet all 
 of our goals.
 
+I also investigated two different agile working methods, Kanban and Scrum, in the following research: [Agile Research](https://github.com/FilmerApp/.github/blob/main/Research/Agile.md)
+
 ## 4: CI/CD
 >###  _You **design and implement** a (semi)automated software release process that matches the needs of the project context._
 Both parts of my backend, and my frontend, are containerized using Docker. All of this happens automatically whenever something is committed to the main branch
@@ -231,7 +233,7 @@ I researched cryptography and how it could be applied to increase the security o
 I worked out a specific business case for the Eeventify application, including a model:  
 [Business Process Research](https://github.com/FilmerApp/.github/blob/main/Research/Business%20Process.md)
 
-I started researching agile working methods (research will be finished along with the Eeventify group):  
+I researched different frameworks for agile software development:  
 [Agile Research](https://github.com/FilmerApp/.github/blob/main/Research/Agile.md)
 
 # Semester Reflection
