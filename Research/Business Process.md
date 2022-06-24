@@ -4,7 +4,7 @@ A business process is a collection of tasks, often organised in a flowchart, tha
 
 Unfortunately due to the nature of Eeventify, being more like a social media application, there are very few involved processes required for its day-to-day operation. We don’t deliver packages, take customer orders, or anything else that would regularly require tasks to be performed by an employee.
 
-There is one small exception, to do with the way we manage interests. When an event is created, a user can add related interest, for example adding ‘sports’, ‘outdoors’, and ‘soccer’ to a pick-up soccer game they want to organize. To protect from misuse, and because all of these interests could potentially be added to someone’s profile in order to filter their event feed, users are only be able to pick the interests from a set list. Of course, it’s possible that one of the interests that best describes the event isn’t on the list at all, in which case the user will have to request for a specific interest to be added.
+There is one small exception, to do with the way we manage interests. When an event is created, a user can add related interests, for example adding ‘sports’, ‘outdoors’, and ‘soccer’ to a pick-up soccer game they want to organize. To protect from misuse, and because all of these interests could potentially be added to someone’s profile in order to filter their event feed, users are only able to pick the interests from a set list. Of course, it’s possible that one of the interests that best describes the event isn’t on the list at all, in which case the user will have to request for a specific interest to be added.
 
 The process involved is outlined in the model below.
 
