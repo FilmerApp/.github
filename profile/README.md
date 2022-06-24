@@ -169,8 +169,8 @@ I had overlooked.
 [Requirements](Requirements.md)
 
 ## 7: Business Processes
->###  _You analyze and describe **simple** business processes that are **related** to your project._
-(Research will be added later)
+>###  I researched what potential business processes Eeventify would required, and created a model for a specific one: a user requesting a new interest to be added to the application. For more information see:
+[Business Process Analysis](https://github.com/FilmerApp/.github/blob/main/Research/Business%20Process.md)
 
 ## 8: Professional
 >###  _You act in a **professional manner** during software development and learning._
@@ -217,13 +217,17 @@ I researched what the ACM Code of Ethics had to say about working together in a 
 setting:  
 [Ethics Research](https://github.com/FilmerApp/.github/blob/main/Research/Ethics.md)
 
+I researched what culture and cultural dimensions are, and how that knowledge could be used to improve cooperation between groups from different cultures:
+[Cultural Research](https://github.com/FilmerApp/.github/blob/main/Research/Cultural%20Differences.md)
+
 I researched the optimal choice of Database and ORM framework for Filmer:  
 [Database & ORM Research](https://github.com/FilmerApp/.github/blob/main/Research/Database%20and%20ORMs.md)
 
 I researched cryptography and how it could be applied to increase the security of both Filmer and Eeventify:  
 [Cryptography Research](https://github.com/FilmerApp/.github/blob/main/Research/Cryptography.md)
 
-I am working on researching hypothetical scenarios for trying to create a business out of Eeventify.
+I worked out a specific business case for the Eeventify application, including a model:
+[Business Process Research](https://github.com/FilmerApp/.github/blob/main/Research/Business%20Process.md)
 
 I started researching agile working methods (research will be finished along with the Eeventify group):  
 [Agile Research](https://github.com/FilmerApp/.github/blob/main/Research/Agile.md)
@@ -246,6 +250,10 @@ The biggest - and most obvious - point of improvement is my communication with t
 
 [Ethics Research](https://github.com/FilmerApp/.github/blob/main/Research/Ethics.md)
 
+[Cultural Research](https://github.com/FilmerApp/.github/blob/main/Research/Cultural%20Differences.md)
+
 [Database & ORM Research](https://github.com/FilmerApp/.github/blob/main/Research/Database%20and%20ORMs.md)
 
 [Cryptography Research](https://github.com/FilmerApp/.github/blob/main/Research/Cryptography.md)
+
+[Business Process Research](https://github.com/FilmerApp/.github/blob/main/Research/Business%20Process.md)
