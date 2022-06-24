@@ -1,3 +1,5 @@
+# Business Process - Creating New Interests
+
 A business process is a collection of tasks, often organised in a flowchart, that, when performed by the right employees or equipment, will result in a service being performed for a customer. For example, a business process may highlight how exactly a customer can create a new bank account, or how a customer might be sent a replacement package for an item that arrived broken.
 
 Unfortunately due to the nature of Eeventify, being more like a social media application, there are very few involved processes required for its day-to-day operation. We don’t deliver packages, take customer orders, or anything else that would regularly require tasks to be performed by an employee.
@@ -6,7 +8,7 @@ There is one small exception, to do with the way we manage interests. When an ev
 
 The process involved is outlined in the model below.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b3494d74-ddf3-4d9f-9182-0fb1e87c3087/Untitled.png)
+![Eeventify Business Process Model](https://github.com/FilmerApp/.github/blob/main/images/Eeventify%20Business%20Process.png)
 
 Whenever a user requests for a new interest to be added, it will have to be manually vetted for suitability by an employee first, who will make sure the interest is appropriate, understandable, not too niche, etc. This employee is called the ‘content screener’ in the model.
 
