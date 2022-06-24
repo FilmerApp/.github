@@ -125,10 +125,10 @@ For Eevenify, we use a very similar setup: whenever an update is made to a servi
 
 ## 5: Cultural differences
 >###  _You **recognize** and **take into account** cultural differences between project stakeholders and ethical aspects in software development._
-The largest difference in culture I had to contend with this semester was our group's collaboration on Eeventify with the students from Oulu, Finland. Not only
-were they from a different country, they were also from a different University with constrasting ways of working and a differing yearly schedule. I do
+The largest difference in culture I had to contend with this semester was our group's collaboration on Eeventify with the students from Oulu, Finland. Not only were they from a different country, they were also from a different University with constrasting ways of working and a differing yearly schedule. I do
 think there were some challenges starting out, especially since were designing a backend for two seperate frontend teams, but a lot of those kinks got worked
 out very well, and in the end I think our collaboration transpired very smoothly.
+I researched what exactly culture is, and what cultural dimensions are, and how that knowledge can be applied to a cooperation such as this one, in the following research: [Cultural Research](https://github.com/FilmerApp/.github/blob/main/Research/Cultural%20Differences.md)
 
 As for ethical aspects, I have carried out research on the ethics surrounding the collaboration and communication with other groups, especially within an
 educational setting:
@@ -169,7 +169,9 @@ I had overlooked.
 [Requirements](Requirements.md)
 
 ## 7: Business Processes
->###  I researched what potential business processes Eeventify would required, and created a model for a specific one: a user requesting a new interest to be added to the application. For more information see:
+>### You analyze and describe simple business processes that are related to your project.
+
+I researched what potential business processes Eeventify would required, and created a model for a specific one: a user requesting a new interest to be added to the application. For more information see:
 [Business Process Analysis](https://github.com/FilmerApp/.github/blob/main/Research/Business%20Process.md)
 
 ## 8: Professional
@@ -217,7 +219,7 @@ I researched what the ACM Code of Ethics had to say about working together in a 
 setting:  
 [Ethics Research](https://github.com/FilmerApp/.github/blob/main/Research/Ethics.md)
 
-I researched what culture and cultural dimensions are, and how that knowledge could be used to improve cooperation between groups from different cultures:
+I researched what culture and cultural dimensions are, and how that knowledge could be used to improve cooperation between groups from different cultures:  
 [Cultural Research](https://github.com/FilmerApp/.github/blob/main/Research/Cultural%20Differences.md)
 
 I researched the optimal choice of Database and ORM framework for Filmer:  
@@ -226,7 +228,7 @@ I researched the optimal choice of Database and ORM framework for Filmer:
 I researched cryptography and how it could be applied to increase the security of both Filmer and Eeventify:  
 [Cryptography Research](https://github.com/FilmerApp/.github/blob/main/Research/Cryptography.md)
 
-I worked out a specific business case for the Eeventify application, including a model:
+I worked out a specific business case for the Eeventify application, including a model:  
 [Business Process Research](https://github.com/FilmerApp/.github/blob/main/Research/Business%20Process.md)
 
 I started researching agile working methods (research will be finished along with the Eeventify group):  
